@@ -4,13 +4,206 @@
 <head>
 	<title>Quiz Binaurales Hören</title>
 	<meta charset="utf-8" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="quiz.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="quizlib/quizlib.css" type="text/css" media="screen" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="quiz.js" type="text/javascript" charset="utf-8"></script>
-	<script src="/quizlib/quizlib.js" type="text/javascript" charset="utf-8"></script>
+	<script src="quizlib/quizlib.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
-	<p>Test</p>
+	<!-- Quiz Container -->
+	<div id="quiz">
+		<!-- Question 1 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">1. Was bedeutet Binaural?</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q1" value="a"> Mit beiden Ohren </label></li>
+					<li><label><input type="radio" name="q1" value="b"> Räumlich</label></li>
+					<li><label><input type="radio" name="q1" value="c"> Mit einem Ohr</label></li>
+					<li><label><input type="radio" name="q1" value="d"> Richtungsspezifisch</label></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Question 2 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">2. Welche Ebene gehört nicht zum Kopfbezogenen Koordinatensystem?</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q2" value="a"> Medianebene </label></li>
+					<li><label><input type="radio" name="q2" value="b"> Horizontalebene</label></li>
+					<li><label><input type="radio" name="q2" value="c"> Vertikalebene</label></li>
+					<li><label><input type="radio" name="q2" value="d"> Frontalebene</label></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Question 3 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">3. Was stimmt? Die Medianebene…</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q3" value="a"> Spannt sich durch die interaurale Achse und der	Unterseite der Augenhöhlen auf </label></li>
+					<li><label><input type="radio" name="q3" value="b"> Teilt den Kopf vertikal in zwei Hälften</label></li>
+					<li><label><input type="radio" name="q3" value="c"> Verläuft parallel zur Horizontalebene</label></li>
+					<li><label><input type="radio" name="q3" value="d"> Enthält die interaurale Achse</label></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Question 4 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">4. Welche 3 Koordinaten werden für die Position einer Schallquelle
+				benötigt?</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q4" value="a"> Roll-Winkel, Nick-Winkel & Gier-Winkel </label></li>
+					<li><label><input type="radio" name="q4" value="b"> Drehwinkel, Steigungswinkel & Entfernung</label></li>
+					<li><label><input type="radio" name="q4" value="c"> Längengrad, Breitengrad & Höhe </label></li>
+					<li><label><input type="radio" name="q4" value="d"> Nick-Winkel, Steigungswinkel & Entfernung</label>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Question 5 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">5.	Welche 3 Parameter sind für die akustische Lokalisation ausschlaggebend?</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q5" value="a"> Frequenz, Klangfarbe & Ausbreitungsgeschwindigkeit</label></li>
+					<li><label><input type="radio" name="q5" value="b"> Laufzeit, Pegel & Hallanteil</label></li>
+					<li><label><input type="radio" name="q5" value="c"> Klangfarbe, Hallanteil & Wellenlänge</label></li>
+					<li><label><input type="radio" name="q5" value="d"> Laufzeit, Pegel & Frequenzspektrum</label></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Question 6 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">6.	Was entsteht nicht durch das Hören mit zwei Ohren?</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q6" value="a"> Laufzeitdifferenzen</label></li>
+					<li><label><input type="radio" name="q6" value="b"> Temperaturunterschiede</label></li>
+					<li><label><input type="radio" name="q6" value="c"> Pegeldifferenzen</label></li>
+					<li><label><input type="radio" name="q6" value="d"> Frequenzunterschiede</label></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Question 7 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">7.	Weshalb sind Ohrmuscheln wichtig für unser Gehör?</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q7" value="a"> Unterscheidung von vorne und hinten</label></li>
+					<li><label><input type="radio" name="q7" value="b"> Unterscheidung von links und rechts</label></li>
+					<li><label><input type="radio" name="q7" value="c"> Unterscheidung von laut und leise</label></li>
+					<li><label><input type="radio" name="q7" value="d"> Unterscheidung von tiefen und hohen Frequenzen</label></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Question 8 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">8.	In welchen Funktionen werden die spektralen Veränderungen für die Position relativ zum Kopf berechnet?</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q8" value="a"> Head-Related-Polynom-Functions</label></li>
+					<li><label><input type="radio" name="q8" value="b"> Head-Related-Logarithmic-Functions</label></li>
+					<li><label><input type="radio" name="q8" value="c"> Head-Related-Transfer-Functions</label></li>
+					<li><label><input type="radio" name="q8" value="d"> Head-Related-Exponential-Functions</label></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Question 9 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">9.	Viele Orte um den Kopf erzeugen die gleichen interauralen Differenzen. Diese Positionen ergeben den…</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q9" value="a"> Cylinder of Misconception</label></li>
+					<li><label><input type="radio" name="q9" value="b"> Cylinder of Confusion</label></li>
+					<li><label><input type="radio" name="q9" value="c"> Cone of Misconception</label></li>
+					<li><label><input type="radio" name="q9" value="d"> Cone of Confusion</label></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Question 10 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">10.	Für das XY-Verfahren werden…</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q10" value="a"> Zwei Kugelmikrofone im Abstand von 30 cm montiert</label></li>
+					<li><label><input type="radio" name="q10" value="b"> Zwei Kugelmikrofone gekreuzt übereinander montiert</label></li>
+					<li><label><input type="radio" name="q10" value="c"> Zwei Nierenmikrofone gekreuzt übereinander montiert</label></li>
+					<li><label><input type="radio" name="q10" value="d"> Zwei Nierenmikrofone im Winkel von 110° zueinander montiert</label></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Question 11 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">11.	Das AB-Verfahren ist ein Verfahren der…</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q11" value="a"> Intensitätsstereofonie</label></li>
+					<li><label><input type="radio" name="q11" value="b"> Laufzeitstereofonie</label></li>
+					<li><label><input type="radio" name="q11" value="c"> Äquivalenzstereofonie</label></li>
+					<li><label><input type="radio" name="q11" value="d"> Trennkörperstereofonie</label></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Question 12 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">12.	Die Äquivalenzstereofonie ist eine Mischung aus…</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q12" value="a"> Intensitätsstereofonie & Laufzeitstereofonie</label></li>
+					<li><label><input type="radio" name="q12" value="b"> Laufzeitstereofonie & Trennkörperstereofonie</label></li>
+					<li><label><input type="radio" name="q12" value="c"> Trennkörperstereofonie & Intensitätsstereofonie</label></li>
+					<li><label><input type="radio" name="q12" value="d"> Monofoner & Binauraler Aufnahme</label></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Question 13 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">13.	Was stimmt in Bezug auf die Trennkörperstereofonie nicht?</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q13" value="a"> Erzeugt Frequenzunterschiede</label></li>
+					<li><label><input type="radio" name="q13" value="b"> Quelle bewegt sich bei Kopfhörerwiedergabe in der Dimension innerhalb unseres Kopfes</label></li>
+					<li><label><input type="radio" name="q13" value="c"> Schallquelle kann präzise lokalisiert werden</label></li>
+					<li><label><input type="radio" name="q13" value="d"> Kann die Abschirmwirkung des Kopfes genau widerspiegeln</label></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Question 14 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">14.	Was ist kein Nachteil der Kunstkopfaufnahme?</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q14" value="a"> Das Signal kann nicht gut nachbearbeitet werden</label></li>
+					<li><label><input type="radio" name="q14" value="b"> Funktioniert nur über Kopfhörerwiedergabe</label></li>
+					<li><label><input type="radio" name="q14" value="c"> Fehllokalisationen können nicht ausgeglichen werden</label></li>
+					<li><label><input type="radio" name="q14" value="d"> Räumliche Merkmale werden schlecht abgebildet</label></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Question 15 -->
+		<div class="card quizlib-question">
+			<div class="quizlib-question-title">15.	Warum funktioniert die Frontlokalisation beim Kunstkopf nur sehr schlecht?</div>
+			<div class="quizlib-question-answers">
+				<ul>
+					<li><label><input type="radio" name="q15" value="a"> Der Kunstkopf kann keine Schallquellen von vorne aufnehmen</label></li>
+					<li><label><input type="radio" name="q15" value="b"> Visuelle Reize spielen bei der Frontlokalisation ebenfalls eine große Rolle</label></li>
+					<li><label><input type="radio" name="q15" value="c"> Die Mikrofone des Kunstkopfes verzerren frontale Signale</label></li>
+					<li><label><input type="radio" name="q15" value="d"> Die Ohrmuscheln des Kunstkopfes unterscheiden sich zu stark von den Eigenen</label></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Answer Button -->
+		<div id="alignCenter">
+			<button type="button" id="resultButton" onclick="showResults();">Fertig</button>
+		</div>
+	</div>
+	<!-- Quiz Results -->
+	<div id="quiz-result" class="card">
+		Ergebnis: <span id="quiz-percent"></span>% - <span id="quiz-score"></span>/<span id="quiz-max-score"></span><br/>
+	</div>
 </body>

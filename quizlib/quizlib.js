@@ -61,7 +61,7 @@ var Quiz = function(quizContainer, answers) {
 	 * @type String
 	 * @default 'Unanswered Question!'
 	 */
-	this.unansweredQuestionText = 'Unanswered Question!';
+	this.unansweredQuestionText = 'Nicht beantwortet!';
 
 	// Quiz container element
 	this.container = document.getElementById(quizContainer);
