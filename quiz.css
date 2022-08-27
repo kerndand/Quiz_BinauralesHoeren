@@ -4,7 +4,6 @@ html {
   
   body {
     width: 50%;
-    min-width: 820px;
     margin: 0 auto;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -72,3 +71,9 @@ html {
     -moz-box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.3);
   }
+  
+@media only screen and (max-width: 640px) {
+    body{
+        width: 95%;
+    }
+}
