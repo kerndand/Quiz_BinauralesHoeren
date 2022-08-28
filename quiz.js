@@ -3,6 +3,7 @@ var quiz;
 function showResults() {
     // Check answers and continue if all questions have been answered
     if (quiz.checkAnswers()) {
+        window.scrollTo(0, 0);
         var quizScorePercent = quiz.result.scorePercentFormatted; // The unformatted percentage is a decimal in range 0 - 1
         var resultButton = document.getElementById('resultButton');
         resultButton.style.display = 'none';

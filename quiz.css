@@ -84,7 +84,7 @@ html {
     left: 0;
   }
 
-  span {
+  .align {
     display: block;
     margin-left: 30px;
   }
